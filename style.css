@@ -294,6 +294,12 @@ nav {
   background-color: #ffffff;
 }
 
+.games-types-area div:hover{
+  border:1px solid black;
+  color: #ff42a5;
+  background-color: white;
+}
+
 .games-types-area div img {
   margin: 10px;
   width: 40px;
