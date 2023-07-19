@@ -164,3 +164,146 @@ nav {
   align-items: center;
   justify-content: center;
 }
+
+/* online videos section */
+.online-videos-area {
+  width: 80%;
+  margin: 80px auto;
+}
+
+#online-videos-intro {
+  text-align: center;
+}
+
+.online-videos-area h1 {
+  font-size: 50px;
+  color: #0b0223;
+  margin-bottom: 20px;
+}
+
+.online-videos-area p {
+  font-size: 20px;
+  color: #0b0223ba;
+  margin-bottom: 25px;
+}
+
+.f-v-title {
+  background: -webkit-linear-gradient(#f948b2, #8758f1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.online-videos {
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(4, 1fr);
+}
+
+.online-videos > div {
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.online-videos div p {
+  font-size: 25px;
+  margin-top: 20px;
+  color: #534c64c7;
+}
+
+/* play-instant-area  */
+.play-instant-area {
+  width: 80%;
+  margin: 0 auto 100px auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.play-instant-intro {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.play-instant-intro p {
+  margin-top: 20px;
+  font-size: 20px;
+  color: rgba(0, 0, 0, 0.752);
+  text-align: end;
+}
+
+.play-instant-intro h1 {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: end;
+}
+
+.play-instant-intro span {
+  font-size: 50px;
+  font-weight: 600;
+  text-align: end;
+  background: -webkit-linear-gradient(#ee4ab8, #de4cc1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.play-instant-img-area {
+  position: relative;
+  width: 50%;
+  margin-left: 255px;
+}
+
+.first-img {
+  position: absolute;
+  bottom: -65px;
+  left: -155px;
+}
+
+.second-img {
+  width: 100%;
+  height: 100%;
+}
+
+/* games-types-area */
+.games-types-section {
+  background-color: #fff9fc;
+  height: 30vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.games-types-area {
+  width: 80%;
+  margin: 0 auto;
+  display: grid;
+  gap: 20px;
+  grid-template-columns: repeat(5, 1fr);
+}
+
+.games-types-area div {
+  display: flex;
+  border-radius: 30px;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.games-types-area div img {
+  margin: 10px;
+  width: 40px;
+}
+
+.games-types-area div h6 {
+  font-size: 15px;
+}
+
+/* footer section  */
+footer {
+  background-color: #0b0223;
+}
+
+.logo-title {
+  color: white;
+}
